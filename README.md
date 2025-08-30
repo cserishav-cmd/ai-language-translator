@@ -82,3 +82,9 @@ The key deployment settings are:
 Remember to add your `GOOGLE_AI_API_KEY` as an environment variable in your hosting provider's settings.
 
 ## 📁 File Structure
+├── templates/
+│   └── index.html      # Frontend user interface
+├── app.py              # Flask backend server
+├── requirements.txt    # Python dependencies
+├── .gitignore          # Files to be ignored by Git
+└── README.md           # Project documentation
