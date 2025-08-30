@@ -1,0 +1,25 @@
+# Virtual Environment
+# This folder contains installed Python packages and can be very large.
+.venv
+venv/
+
+# Python cache files
+# These are auto-generated and not needed in the repository.
+__pycache__/
+*.pyc
+
+# Database file
+# Prevents your local database from being uploaded.
+translator.db
+
+# Environment variables
+# CRITICAL: This prevents your secret API key from being exposed.
+.env
+
+# IDE/Editor configuration folders
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
