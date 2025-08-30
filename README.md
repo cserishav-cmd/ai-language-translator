@@ -1,90 +1,122 @@
-# AI-Powered Language Hub 🤖
+# 🌍 AI-Powered Language Hub 🤖
 
-A modern, full-stack web application for real-time translation and language assistance, powered by the Google Gemini AI API and a Python Flask backend.
+A modern, full-stack web application for **real-time translation and language assistance**, powered by the **Google Gemini AI API** and a **Python Flask backend**.
 
-### [ ➡️ VIDEO ⬅️ ]
+---
 
+## 🎥 Demo Video
+[ ➡️ VIDEO LINK HERE ⬅️ ]
 
+---
 
-## ✨ Key Features
+## ✨ Features
 
-* **Real-Time AI Translation**: Instantly translate text between numerous languages using the powerful Gemini model.
-* **Intelligent Suggestions**: Get real-time sentence completion and typo correction suggestions as you type.
-* **Synonyms & Meanings**: Select any text to get a detailed breakdown of synonyms, definitions, and usage examples.
-* **Voice-to-Text**: Use your microphone to speak directly into the app for quick and easy input.
-* **Text-to-Speech**: Listen to the translated text with the click of a button.
-* **Translation History**: Automatically saves your recent translations for quick reference.
-* **Favorites**: Save important or frequently used translations to a dedicated favorites tab.
-* **Dark Mode**: A sleek, eye-friendly dark mode for comfortable use in low-light conditions.
-* **Responsive UI**: A clean and modern user interface built with Tailwind CSS that works on any device.
+- **🌐 Real-Time AI Translation** – Instantly translate text between multiple languages using **Gemini 1.5 Flash**.
+- **💡 Intelligent Suggestions** – Get sentence completion, typo correction, and context-aware suggestions.
+- **📚 Synonyms & Meanings** – Select any text to see synonyms, definitions, and usage examples.
+- **🎤 Voice-to-Text** – Speak directly into the app and convert speech into text.
+- **🔊 Text-to-Speech** – Listen to translated text in natural voice.
+- **📜 Translation History** – Automatically saves recent translations for quick access.
+- **⭐ Favorites** – Save important or frequently used translations.
+- **🌙 Dark Mode** – Eye-friendly UI for comfortable late-night usage.
+- **📱 Responsive UI** – Built with **Tailwind CSS**, optimized for all devices.
 
-## 🛠️ Technologies Used
+---
 
-* **Backend**: Python, Flask
-* **AI Model**: Google Gemini 1.5 Flash
-* **Database**: SQLite
-* **Frontend**: HTML, Tailwind CSS, JavaScript
-* **Deployment**: Gunicorn, Render
+## 🛠️ Tech Stack
+
+- **Backend**: Python, Flask  
+- **AI Model**: Google Gemini 1.5 Flash  
+- **Database**: SQLite  
+- **Frontend**: HTML, Tailwind CSS, JavaScript  
+- **Deployment**: Gunicorn, Render  
+
+---
 
 ## 🚀 Getting Started
 
-Follow these instructions to set up and run the project on your local machine.
-
 ### Prerequisites
-
-* Python 3.8+
-* Git for cloning the repository
+- Python **3.8+**
+- Git installed on your system
 
 ### Installation & Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repository-url>
-    cd <repository-folder>
-    ```
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   cd <repository-folder>
+   ```
 
-2.  **Create a virtual environment:**
-    ```bash
-    # For Windows
-    python -m venv venv
-    venv\Scripts\activate
+2. **Create a virtual environment**
+   ```bash
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
 
-    # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
+   # macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-3.  **Install the required libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4.  **Create an environment file:**
-    Create a new file named `.env` in the root of your project folder. Add your Google AI API key to this file.
-    ```
-    GOOGLE_AI_API_KEY="YOUR_API_KEY_HERE"
-    ```
+4. **Set up environment variables**  
+   Create a `.env` file in the root directory:
+   ```ini
+   GOOGLE_AI_API_KEY="YOUR_API_KEY_HERE"
+   ```
 
-5.  **Run the application:**
-    ```bash
-    flask run
-    ```
-    The application will be available at `http://127.0.0.1:5000`.
+5. **Run the app**
+   ```bash
+   flask run
+   ```
+   Visit 👉 `http://127.0.0.1:5000`
+
+---
 
 ## 🌐 Deployment
 
-This application is ready to be deployed on any platform that supports Python WSGI applications. It can be easily deployed for free on **Render**.
+This app can be deployed on any **Python WSGI-compatible platform** (e.g., Render, Heroku, Railway).
 
-The key deployment settings are:
-* **Build Command**: `pip install -r requirements.txt`
-* **Start Command**: `gunicorn app:app`
+**Render Example Setup:**
+- **Build Command:**  
+  ```bash
+  pip install -r requirements.txt
+  ```
+- **Start Command:**  
+  ```bash
+  gunicorn app:app
+  ```
+- Add `GOOGLE_AI_API_KEY` in **Render Environment Variables**.
 
-Remember to add your `GOOGLE_AI_API_KEY` as an environment variable in your hosting provider's settings.
+---
 
-## 📁 File Structure
+## 📁 Project Structure
+
+```
 ├── templates/
-│   └── index.html      # Frontend user interface
+│   └── index.html      # Frontend UI
+├── static/             # (Optional) CSS/JS assets
 ├── app.py              # Flask backend server
 ├── requirements.txt    # Python dependencies
-├── .gitignore          # Files to be ignored by Git
-└── README.md           # Project documentation
+├── .env                # API key (not committed to Git)
+├── .gitignore          # Ignore sensitive/unnecessary files
+└── README.md           # Documentation
+```
+
+---
+
+## 🙌 Contribution
+
+Contributions are welcome! Feel free to fork this repo and submit PRs with improvements.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use and modify it.
+
+---
