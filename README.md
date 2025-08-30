@@ -2,7 +2,7 @@
 
 A modern, full-stack web application for real-time translation and language assistance, powered by the Google Gemini AI API and a Python Flask backend.
 
-### [ ➡️ Add Your Live Demo Link Here ⬅️ ]
+### [ ➡️ VIDEO ⬅️ ]
 
 
 
