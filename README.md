@@ -5,7 +5,7 @@ A modern, full-stack web application for **real-time translation and language as
 ---
 
 ## 🎥 Demo Video
-[ ➡️ VIDEO LINK HERE ⬅️ ]
+[ ➡️ [VIDEO LINK HERE](https://youtu.be/dJffZv6-cl4) ⬅️ ]
 
 ---
 
